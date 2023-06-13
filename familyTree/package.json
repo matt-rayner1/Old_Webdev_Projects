@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "jest": "^27.2.5"
+  },
+  "name": "familytree",
+  "description": "Royal Family Tree (Multiverse task)",
+  "version": "1.0.0",
+  "main": "royal_fam_class.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-rayner1/familyTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-rayner1/familyTree/issues"
+  },
+  "homepage": "https://github.com/matt-rayner1/familyTree#readme",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  }
+}

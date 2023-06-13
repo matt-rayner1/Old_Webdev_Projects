@@ -1,0 +1,24 @@
+{
+  "name": "scooterhire",
+  "version": "1.0.0",
+  "description": "Multiverse scooter hire task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-rayner1/scooterHire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-rayner1/scooterHire/issues"
+  },
+  "homepage": "https://github.com/matt-rayner1/scooterHire#readme",
+  "dependencies": {
+    "jest": "^27.3.0"
+  }
+}

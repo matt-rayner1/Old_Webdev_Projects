@@ -1,0 +1,23 @@
+CREATE TABLE restaurants (
+  restaurant_ID INTEGER,
+  name          TEXT,
+  imagelink     TEXT,
+  PRIMARY KEY (restaurant_ID)
+);
+
+CREATE TABLE menus (
+  menu_ID       INTEGER,
+  title         TEXT,
+  restaurant_ID INTEGER,
+  PRIMARY KEY (menu_ID)
+  FOREIGN KEY (restaurant_ID) REFERENCES restaurants(restaurant_ID)
+);
+
+CREATE TABLE menuItems (
+  item_ID INTEGER,
+  name    TEXT,
+  price   INTEGER,
+  menu_ID INTEGER,
+  PRIMARY KEY (item_ID)
+  FOREIGN KEY (menu_ID) REFERENCES menus(menu_ID)
+);

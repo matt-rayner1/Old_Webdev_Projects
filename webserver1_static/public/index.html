@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css"/>
+        <script>
+            function Random() {
+            var rnd = Math.floor(Math.random() * 10000000);
+            document.getElementById('tb').value = rnd;
+        }
+        </script>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <form name="random no">
+            <input type="text" id="tb" name="tb" />
+            <input type="button" value="Dynamic random number!" onclick="Random();" />
+        </form>
+
+        <a href="about.html">About this site</a>
+    </body>
+</html>
